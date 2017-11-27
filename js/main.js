@@ -71,7 +71,7 @@ $(document).ready(function(){
     });
 
     $("#clients-logo").owlCarousel({
- 
+
         itemsCustom : false,
         pagination : false,
         items : 5,
@@ -93,10 +93,12 @@ $(".fancybox").fancybox({
     closeEffect : 'elastic',
     closeSpeed  : 350,
 
+    type: 'iframe',
+
     closeClick : true,
     helpers : {
-        title : { 
-            type: 'inside' 
+        title : {
+            type: 'inside'
         },
         overlay : {
             css : {
@@ -105,14 +107,3 @@ $(".fancybox").fancybox({
         }
     }
 });
-
-
-
-
-
-
- 
-
-
-
-
